@@ -4,7 +4,7 @@ import { IoAnalytics } from "react-icons/io5";
 
 import { FiHome } from "react-icons/fi";
 type Props = {}; 
-const Sidebar = (props:Props) => {
+const Sidebar:React.FC = (props:Props) => {
   return (
     <div className='fixed top-0 left-0 h-screen w-64 bg-[#f7f7fa] text-white flex flex-col rounded-xl'> 
         <div className='flex border-transparent p-4 mb-4'>
